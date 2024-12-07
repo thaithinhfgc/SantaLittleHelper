@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 p {
-	color:#757575;
+	color:#444444;
 	margin: 0;
 	line-height:24px;
 	font-weight:400;
@@ -325,7 +325,7 @@ Preloader Area CSS
 }
 
 .preloader .loader .indicator svg polyline#front {
-  stroke: #1A76D1;
+  stroke: #FF0000;
   stroke-dasharray: 12, 36;
   stroke-dashoffset: 48;
   -webkit-animation: dash 1s linear infinite;
@@ -340,7 +340,7 @@ Preloader Area CSS
   height: 100%;
   width: 60%;
   z-index: -1;
-  background: #1A76D1;
+  background: #FFA27F;
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -431,7 +431,7 @@ Preloader Area CSS
 	font-size: 14px;
 	text-transform: capitalize;
 	font-weight: 500;
-	background: #e6003a;
+	background: #FF0000;
 	position: relative;
 	box-shadow: none;
 	display: inline-block;
@@ -470,12 +470,17 @@ Preloader Area CSS
 	transform: scaleX(1);
 }
 .section{
-	padding:100px 0;
+	padding:70px 0;
+	background:#FFE8C5; 
 }
 .section-title{
 	text-align: center;
     margin-bottom: 60px;
-    padding: 0 250px;
+    /* padding: 0 250px; */
+}
+.section-title-3{
+	text-align: center;
+    margin-bottom: 60px;
 }
 .section-title h2 {
 	font-size: 32px;
@@ -486,9 +491,9 @@ Preloader Area CSS
 	color: #2C2D3F;
 }
 .section-title p{
-	font-size:15px;
-	color:#888;
-	margin-top:15px;
+	font-size:20px;
+	color:#4e4e4e;
+	/* margin-top:15px; */
 }
 /* Overlay */
 .overlay{
@@ -501,7 +506,7 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
-	background:#e6003a;
+	background:#FF0000;
 	opacity:0.8;
 }
 /* Bread Crumbs */
@@ -738,7 +743,7 @@ a {
 }
 
 a:visited {
-	color: inherit;
+	/* color: inherit; */
 }
 
 a:hover, a:focus, a:active {
