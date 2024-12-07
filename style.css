@@ -51,12 +51,14 @@ Version:	1.1
 
 html {
     scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 body {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #888;
+	overflow-x: hidden;
 }
 
 .anchor {
