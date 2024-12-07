@@ -60,6 +60,15 @@ body {
     color: #888;
 	overflow-x: hidden;
 }
+.logo-link{
+	height: 50px;
+    display: block;
+    width: 170px;
+}
+
+.logo img{
+	min-width: 100%;
+}
 
 .anchor {
     display: block;
