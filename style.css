@@ -49,12 +49,17 @@ Version:	1.1
 	Global CSS 
 ===============================*/
 
+@font-face {
+	font-family: 'utm';
+	src: URL('fonts/UTM Impact.ttf') format('truetype');
+  }
+
 html {
     scroll-behavior: smooth;
 	overflow-x: hidden;
 }
 body {
-    font-family: "Lobster", sans-serif;
+    font-family: "utm", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #888;
