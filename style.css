@@ -325,7 +325,7 @@ body {
     margin-right: 8px;
 }
 .header .header-inner {
-    background: #ffe8c5;
+    background:  #008000;
     z-index: 999;
     width: 100%;
 }
@@ -860,7 +860,7 @@ body {
 ===============================*/
 .Feautes {
     padding-top: 0;
-    background: #ffe8c5;
+    background:  #008000;
 }
 .Feautes.index2 {
     padding-top: 100px;
@@ -2027,7 +2027,7 @@ body {
 	Start Blog CSS
 =========================*/
 .blog {
-    background: #ffe8c5;
+    background:  #008000;
 }
 .blog .blog-title {
     text-align: center;
@@ -2348,7 +2348,7 @@ body {
 }
 /* Blog Meta */
 .news-single {
-    background: #ffe8c5;
+    background:  #008000;
 }
 .news-single .meta {
     overflow: hidden;
