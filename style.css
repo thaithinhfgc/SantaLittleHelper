@@ -2060,7 +2060,7 @@ body {
     padding: 15px;
     left: 0;
     z-index: 0;
-    height: 230px;
+    height: 250px;
 }
 .blog .single-news .news-content:before {
     position: absolute;
@@ -4212,6 +4212,12 @@ body {
     text-decoration: underline;
     display: inline-block;
     margin-left: 4px;
+}
+
+.news-button {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
 }
 /*=========================
 	End Footer CSS
