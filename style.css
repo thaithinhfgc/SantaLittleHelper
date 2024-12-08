@@ -1063,6 +1063,11 @@ body {
 .choose-right .video:hover {
     transform: scale(1.1);
 }
+
+.video-image {
+    height: 500px;
+}
+
 .why-choose .video-image .waves-block .waves {
     position: absolute;
     width: 200px;
