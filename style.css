@@ -56,14 +56,15 @@ Version:	1.1
 
 html {
     scroll-behavior: smooth;
-	overflow-x: hidden;
+    overflow-x: clip;
 }
 body {
-    font-family: "utm", sans-serif;
+    font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #888;
 	overflow-x: hidden;
+    overflow-x: clip;
 }
 .logo-link{
 	height: 50px;
