@@ -1369,7 +1369,7 @@ body {
     color: #2c2d3f;
 }
 .services .single-service h4 a {
-    color: #2c2d3f;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
@@ -1377,7 +1377,7 @@ body {
     color: #ffa27f;
 }
 .services .single-service p {
-    color: #5b5b5b;
+    color: #fff;
     font-size: 20px;
 }
 /*-- Service Details --*/
@@ -2320,7 +2320,7 @@ body {
     padding: 0;
     background: #f8f8f8;
 }
-.news-single .single-main {
+.single-main {
     background: #fff;
     padding: 30px;
     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -2328,7 +2328,7 @@ body {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-.news-single .single-main p {
+.single-main p {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 15px;

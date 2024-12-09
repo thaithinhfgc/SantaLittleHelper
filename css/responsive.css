@@ -278,7 +278,7 @@ Version:	1.1
 .blog .single-news {
 	margin: 15px 0;
 }
-.news-single .single-main {
+.single-main {
 	margin-top: 0;
 }
 .newsletter .subscribe-text {
@@ -760,10 +760,10 @@ Version:	1.1
 .blog .single-news {
 	margin: 15px 0;
 }
-.news-single .single-main {
+ .single-main {
 	margin-top:0px;
 }
-.news-single .single-main {
+.single-main {
 	padding: 15px;
 }
 .news-single .news-title {
