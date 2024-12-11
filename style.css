@@ -325,7 +325,7 @@ body {
     margin-right: 8px;
 }
 .header .header-inner {
-    background:  #008000;
+    background:  #fff;
     z-index: 999;
     width: 100%;
 }
@@ -633,7 +633,7 @@ body {
     color: #ffffff;
     font-size: 38px;
     font-weight: 700;
-    margin: 0;
+    margin-bottom: 27px;
     padding: 0;
     line-height: 42px;
 }
@@ -642,8 +642,9 @@ body {
 }
 .slider .single-slider p {
     color: #ffffff;
-    margin-top: 27px;
     font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
 }
 .slider .single-slider .button {
     margin-top: 30px;
@@ -860,7 +861,7 @@ body {
 ===============================*/
 .Feautes {
     padding-top: 0;
-    background:  #008000;
+    background:  #fff;
 }
 .Feautes.index2 {
     padding-top: 100px;
@@ -1117,7 +1118,7 @@ body {
     padding: 60px 65px;
 }
 .call-action .content h2 {
-    color: #fff;
+    color: #292929;
     font-size: 32px;
     font-weight: 600;
     line-height: 46px;
@@ -1333,7 +1334,7 @@ body {
     line-height: 35px;
     text-align: center;
     border: 1px solid #c8c8c8;
-    color: #444444;
+    color: #292929;
     display: block;
     border-radius: 50%;
 }
@@ -1365,11 +1366,11 @@ body {
 }
 .services .single-service h4 {
     text-transform: capitalize;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #2c2d3f;
 }
 .services .single-service h4 a {
-    color: #fff;
+    color: #292929;
     font-size: 20px;
     font-weight: 600;
 }
@@ -1377,8 +1378,9 @@ body {
     color: #ffa27f;
 }
 .services .single-service p {
-    color: #fff;
+    color: #292929;
     font-size: 20px;
+    line-height: 30px;
 }
 /*-- Service Details --*/
 .services-details-img {
@@ -1951,7 +1953,7 @@ body {
     padding: 0;
     border-radius: 4px;
     display: block;
-    color: #444444;
+    color: #292929;
     font-size: 16px;
 }
 .doctor-details-area .doctor-details-left .social li a:hover {
@@ -2032,7 +2034,7 @@ body {
 	Start Blog CSS
 =========================*/
 .blog {
-    background:  #008000;
+    background:  #fff;
 }
 .blog .blog-title {
     text-align: center;
@@ -2091,6 +2093,7 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 24px;
+    color: #292929;
 }
 .blog .single-news .news-body h2 a {
     color: #2c2d3f;
@@ -2104,7 +2107,7 @@ body {
     text-transform: capitalize;
     font-size: 15px;
     letter-spacing: 0px;
-    color: #606060;
+    color: #292929;
 }
 .blog .single-news .news-body .date {
     display: inline-block;
@@ -2317,21 +2320,20 @@ body {
 }
 /* News Single */
 .news-single {
-    padding: 0;
+    padding-top: 50px;
     background: #f8f8f8;
 }
 .single-main {
     background: #fff;
     padding: 30px;
-    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow:  0 16px 32px 0 rgba(41,41,41,.15);
+    -moz-box-shadow:  0 16px 32px 0 rgba(41,41,41,.15);
+    box-shadow:  0 16px 32px 0 rgba(41,41,41,.15);
     border-radius: 8px;
 }
 .single-main p {
     font-size: 20px;
     line-height: 30px;
-    padding-bottom: 15px;
 }
 .news-single .news-head {
 }
@@ -2344,7 +2346,7 @@ body {
     margin: 20px 0;
 }
 .news-single .news-title a {
-    color: #252525;
+    color: #292929;
     font-weight: 600;
     font-size: 30px;
 }
@@ -2353,7 +2355,7 @@ body {
 }
 /* Blog Meta */
 .news-single {
-    background:  #008000;
+    background:  #fff;
 }
 .news-single .meta {
     overflow: hidden;
@@ -2519,7 +2521,7 @@ body {
     text-align: left;
     text-transform: capitalize;
     font-size: 18px;
-    color: #252525;
+    color: #292929;
     margin-bottom: 20px;
 }
 .news-single .blog-comments h4 span {
@@ -2586,7 +2588,7 @@ body {
     font-size: 16px;
     text-align: left;
     font-weight: 500;
-    color: #252525;
+    color: #292929;
 }
 .news-single .single-comments .comment-meta {
     margin-bottom: 5px;
@@ -2833,17 +2835,17 @@ body {
 }
 .appointment .form-group .nice-select::after {
     right: 20px;
-    color: #444444;
+    color: #292929;
 }
 .appointment .form-group .list {
     border-radius: 4px;
 }
 .appointment .form-group .list li {
-    color: #444444;
+    color: #292929;
     border-radius: 0;
 }
 .appointment .form-group .list li.selected {
-    color: #444444;
+    color: #292929;
     font-weight: 400;
 }
 .appointment .form-group .list li:hover {
@@ -4223,6 +4225,18 @@ body {
     position: absolute;
     left: 10px;
     bottom: 5px;
+}
+
+.bottom-card-text {
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+.border-gradient {
+    height: 600px;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 100%);
 }
 /*=========================
 	End Footer CSS

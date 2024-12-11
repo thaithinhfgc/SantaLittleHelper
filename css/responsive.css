@@ -126,6 +126,13 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
+
+.border-gradient {
+	height: 380px;
+	background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0) 20%, rgb(0, 0, 0) 100%);
+}
+
 .schedule {
 	background: #fff;
 	margin: 0;
@@ -393,7 +400,7 @@ Version:	1.1
 	position: absolute;
 	position: relative;
 	//padding-bottom: 20px;
-	background:  #008000;
+	background:  #fff;
 }
 .slicknav_menu{
 	display:block;
@@ -573,6 +580,11 @@ Version:	1.1
 }
 .slider .single-slider {
 	height: 380px;
+}
+.border-gradient {
+	height: 380px;
+	background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0) 20%, rgb(0, 0, 0) 100%);
 }
 .schedule {
 	background: #fff;
@@ -769,10 +781,15 @@ Version:	1.1
 .news-single .news-title {
 	font-size: 20px;
 	font-weight: 500;
+	margin: 0;
 }
 .news-single .news-title a{
 	font-size: 20px;
 	font-weight: 500;
+}
+.single-main p{
+	font-size: 13px;
+	line-height: 20px;;
 }
 .news-single .meta-right {
 	float: none;
@@ -1062,6 +1079,11 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
+.border-gradient {
+	height: 380px;
+	background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0) 20%, rgb(0, 0, 0) 100%);
+}
 .schedule {
 	background: #fff;
 	margin: 0;
@@ -1096,6 +1118,7 @@ Version:	1.1
 }
 .slider .single-slider p{
 	font-size:13px;
+	line-height: 20px;
 }
 .slider .single-slider .text {
 	margin-top: 20px;

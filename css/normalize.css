@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 p {
-	color:#444444;
+	color:#292929;
 	margin: 0;
 	line-height:24px;
 	font-weight:400;
@@ -471,7 +471,7 @@ Preloader Area CSS
 }
 .section{
 	padding:70px 0;
-	background: #008000; 
+	background: #fff; 
 }
 .section-title{
 	text-align: center;
@@ -488,7 +488,7 @@ Preloader Area CSS
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
-	color: #fff;
+	color: #292929;
 }
 .section-title p{
 	font-size:20px;
@@ -506,7 +506,7 @@ Preloader Area CSS
 	top:0;
 	height:100%;
 	width:100%;
-	background:#008000;
+	background:#fff;
 	/* opacity:0.8; */
 }
 /* Bread Crumbs */
