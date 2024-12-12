@@ -20,8 +20,14 @@ Version:	1.1
 	margin-bottom: 12px;
 }
 .section-title p {
-	font-size: 15px;
+	font-size: 20px;
+    line-height: 30px;
 }
+.services .single-service p {
+	font-size: 20px;
+    line-height: 30px;
+}
+
 .btn {
 	padding: 11px 20px;
 	font-weight: 400;
@@ -546,6 +552,10 @@ Version:	1.1
 	font-size: 15px;
 }
 
+.services .single-service p {
+	font-size: 15px;
+}
+
 .breadcrumbs {
 	padding: 60px 0;
 }
@@ -1062,6 +1072,11 @@ Version:	1.1
 .section-title p {
 	font-size: 15px;
 }
+
+.services .single-service p {
+	font-size: 15px;
+}
+
 .btn {
 	padding: 11px 20px;
 	font-weight: 400;
