@@ -4238,6 +4238,11 @@ body {
     background-position: center;
     background: linear-gradient(rgba(0, 0, 0, 0) 30%, rgb(0, 0, 0) 100%);
 }
+.single-footer .content .button a{
+    display: block;
+    width: 150px;
+    margin: 10px;
+}
 /*=========================
 	End Footer CSS
 ===========================*/
