@@ -4243,6 +4243,43 @@ body {
     width: 150px;
     margin: 10px;
 }
+
+.styles_downApp__Z1PR2{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.styles_title__kONoS{
+    font-weight: 600;
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.styles_listPlat__Oe5m3{
+    margin-right: 1rem;
+}
+
+.styles_link-content__Ps8ic{
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.styles_link-content__Ps8ic img {
+    height: 42px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 134px;
+}
+
+.styles_listPlat__Oe5m3 a{
+    display: block;
+    background: #5d82d1;
+    width: 140px;
+}
 /*=========================
 	End Footer CSS
 ===========================*/
