@@ -1351,7 +1351,7 @@ body {
 	Srart service CSS
 ===========================*/
 .services .single-service {
-    margin: 30px 0;
+    margin: 20px 0;
     position: relative;
     padding-left: 70px;
 }
@@ -1366,7 +1366,7 @@ body {
 }
 .services .single-service h4 {
     text-transform: capitalize;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #2c2d3f;
 }
 .services .single-service h4 a {
@@ -4022,7 +4022,7 @@ body {
     position: relative;
 }
 .footer .footer-top {
-    padding: 100px 0px;
+    padding: 50px 0px;
     position: relative;
     background: #1a76d1;
 }
@@ -4100,6 +4100,17 @@ body {
     text-transform: capitalize;
     position: relative;
 }
+
+.footer .single-footer h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 40px;
+    text-transform: capitalize;
+    position: relative;
+}
+
 .footer .single-footer h2::before {
     position: absolute;
     content: "";
