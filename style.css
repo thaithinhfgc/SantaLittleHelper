@@ -2344,7 +2344,9 @@ body {
 .news-single .news-title {
     font-size: 25px;
     margin: 20px 0;
+    text-align: center;
 }
+
 .news-single .news-title a {
     color: #292929;
     font-weight: 600;
@@ -4308,6 +4310,87 @@ body {
     background: #5d82d1;
     width: 140px;
 }
+
+.noel-2024-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    border-radius: 8px;
+    color: #292929;
+}
+
+.noel-2024-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.noel-2024-header h1 {
+    margin: 0;
+    color: #ffa27f
+}
+
+.noel-2024-header p {
+    font-style: italic;
+}
+
+.noel-2024-schedule h2,
+.noel-2024-thank-you h2 {
+    color: #d6336c;
+    border-bottom: 2px solid #d6336c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.noel-2024-schedule ul,
+.noel-2024-thank-you ul {
+    padding-left: 20px;
+}
+
+.noel-2024-schedule ul li,
+.noel-2024-thank-you ul li {
+    margin-bottom: 5px;
+}
+
+.noel-2024-thank-you-message {
+    background: #fef4f4;
+    padding: 10px;
+    border-left: 4px solid #d6336c;
+}
+
+.noel-2024-donations h3,
+.noel-2024-supporters h3{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.noel-2024-donations ul,
+.noel-2024-supporters ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.noel-2024-donations ul li,
+.noel-2024-supporters ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.noel-2024-footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.noel-2024-footer p{
+    font-size: 15px;
+}
+
+.noel-2024-footer a{
+    color: blue;
+}
+
 /*=========================
 	End Footer CSS
 ===========================*/
